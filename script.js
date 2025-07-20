@@ -167,11 +167,11 @@ function updateContentForArabic() {
     document.querySelector('#about .section-title').textContent = 'من نحن';
     document.querySelector('#about .about-content p:first-child').textContent = 'وزارة الشؤون البلدية والإسكان (MoMaH) هي جهة حكومية رئيسية في المملكة العربية السعودية، مسؤولة عن التنمية الحضرية والإسكان والخدمات البلدية في جميع أنحاء البلاد. مهمتنا هي خلق مجتمعات مستدامة ونابضة بالحياة تعزز جودة الحياة لجميع المواطنين والمقيمين.';
     document.querySelector('#about .about-content h3:nth-of-type(1)').textContent = 'مهمتنا';
-    document.querySelector('#about .about-content p:nth-of-type(2)').textContent = 'قيادة تطوير قطاعات البلديات والإسكان من خلال السياسات المبتكرة والشراكات الاستراتيجية والحوكمة الفعالة، تماشياً مع رؤية السعودية 2030.';
+    document.querySelector('#about .about-content p:nth-of-type(2)').textContent = 'قيادة تطوير قطاعات البلديات والإسكان من خلال السياسات المبتكرة والشراكات الاستراتيجية والحوكمة الفعالة، تماشياً مع رؤية السعودية ٢٠٣٠.';
     document.querySelector('#about .about-content h3:nth-of-type(2)').textContent = 'قيمنا';
     document.querySelector('#about .about-content h3:nth-of-type(3)').textContent = 'القيادة';
     document.querySelector('#about .about-content h3:nth-of-type(4)').textContent = 'رحلتنا';
-    document.querySelector('#about .about-content p:last-child').textContent = 'تأسست الوزارة عام 1975، وكانت في طليعة التحول الحضري في المملكة. أطلقنا العديد من المبادرات التي أعادت تشكيل المشهد الحضري ووفرت حلولاً سكنية لملايين السعوديين.';
+    document.querySelector('#about .about-content p:last-child').textContent = 'تأسست الوزارة عام ١٩٧٥، وكانت في طليعة التحول الحضري في المملكة. أطلقنا العديد من المبادرات التي أعادت تشكيل المشهد الحضري ووفرت حلولاً سكنية لملايين السعوديين.';
     document.querySelector('#about .gallery-section .section-title').textContent = 'عملنا على أرض الواقع';
     
     // Values
@@ -197,7 +197,7 @@ function updateContentForArabic() {
 
     // Our Journey
     document.querySelector('#about .about-content h3:nth-of-type(4)').textContent = 'رحلتنا';
-    document.querySelector('#about .about-content p:nth-of-type(3)').textContent = 'تأسست الوزارة عام 1975، وكانت في طليعة التحول الحضري في المملكة. أطلقنا العديد من المبادرات التي أعادت تشكيل المشهد الحضري ووفرت حلولاً سكنية لملايين السعوديين.';
+    document.querySelector('#about .about-content p:nth-of-type(3)').textContent = 'تأسست الوزارة عام ١٩٧٥، وكانت في طليعة التحول الحضري في المملكة. أطلقنا العديد من المبادرات التي أعادت تشكيل المشهد الحضري ووفرت حلولاً سكنية لملايين السعوديين.';
     
     // Page Title
 document.querySelector('#un-collaboration .section-title').textContent = 'التعاون مع الأمم المتحدة';
@@ -227,14 +227,19 @@ document.querySelectorAll('.un-agency ul')[1].innerHTML = `
 `;
 
 // Impact & Achievements
-document.querySelectorAll('#un-collaboration h3')[0].textContent = 'الأثر والإنجازات';
+document.querySelector('#un-collaboration .impact-stats').previousElementSibling.textContent = 'الأثر والإنجازات';
+document.querySelectorAll('.stat-card h4')[0].textContent = 'أكثر من ١٥';
+document.querySelectorAll('.stat-card h4')[1].textContent = 'أكثر من ٢٠٠';
+document.querySelectorAll('.stat-card h4')[2].textContent = 'أكثر من ٥٠٠';
+document.querySelectorAll('.stat-card h4')[3].textContent = 'أكثر من ٥ ملايين';
+
 document.querySelectorAll('.stat-card p')[0].textContent = 'مبادرات مشتركة';
 document.querySelectorAll('.stat-card p')[1].textContent = 'جلسات تدريبية';
 document.querySelectorAll('.stat-card p')[2].textContent = 'موظفين تم تدريبهم';
 document.querySelectorAll('.stat-card p')[3].textContent = 'مستفيدين تم الوصول إليهم';
 
 // Featured Projects
-document.querySelectorAll('#un-collaboration h3')[1].textContent = 'المشاريع المميزة';
+document.querySelector('#un-collaboration .featured-projects').previousElementSibling.textContent = 'المشاريع المميزة';
 document.querySelectorAll('.project-highlight h4')[0].textContent = 'مختبر الابتكار الحضري';
 document.querySelectorAll('.project-highlight p')[0].textContent = 
     'مبادرة مشتركة مع برنامج الأمم المتحدة الإنمائي لتعزيز الابتكار في الخدمات البلدية من خلال التكنولوجيا ومشاركة المجتمع.';
@@ -254,12 +259,12 @@ document.querySelectorAll('#media-center .media-card')[1].querySelector('h3').te
 document.querySelectorAll('#media-center .media-card')[1].querySelector('p').textContent = 'توسعت MoMaH وبرنامج الأمم المتحدة الإنمائي في تعاونهما ليشمل المرونة المناخية في التخطيط الحضري.';
 
 document.querySelectorAll('#media-center .media-card')[2].querySelector('span').textContent = 'فيديو';
-document.querySelectorAll('#media-center .media-card')[2].querySelector('h3').textContent = 'رؤية 2030: تحويل المشهد الحضري';
-document.querySelectorAll('#media-center .media-card')[2].querySelector('p').textContent = 'شاهد كيف تنفذ MoMaH رؤية 2030 من خلال مشاريع تطوير حضري مبتكرة.';
+document.querySelectorAll('#media-center .media-card')[2].querySelector('h3').textContent = 'رؤية ٢٠٣٠: تحويل المشهد الحضري';
+document.querySelectorAll('#media-center .media-card')[2].querySelector('p').textContent = 'شاهد كيف تنفذ MoMaH رؤية ٢٠٣٠ من خلال مشاريع تطوير حضري مبتكرة.';
 
 document.querySelectorAll('#media-center .media-card')[3].querySelector('span').textContent = 'خبر';
 document.querySelectorAll('#media-center .media-card')[3].querySelector('h3').textContent = 'تطوير مشاريع إسكان جديدة في الرياض';
-document.querySelectorAll('#media-center .media-card')[3].querySelector('p').textContent = 'أعلنت MoMaH عن 5000 وحدة سكنية ميسورة التكلفة سيتم تطويرها في منطقة العاصمة.';
+document.querySelectorAll('#media-center .media-card')[3].querySelector('p').textContent = 'أعلنت MoMaH عن ٥٠٠٠ وحدة سكنية ميسورة التكلفة سيتم تطويرها في منطقة العاصمة.';
 
 document.querySelectorAll('#media-center .media-card')[4].querySelector('span').textContent = 'بيان صحفي';
 document.querySelectorAll('#media-center .media-card')[4].querySelector('h3').textContent = 'MoMaH وموئل الأمم المتحدة يطلقان تحدي الابتكار الحضري';
@@ -294,6 +299,10 @@ document.querySelector('#sakani .project-description h3:nth-of-type(2)').textCon
 
 const achievementCards = document.querySelectorAll('#sakani .achievement-card');
 if (achievementCards.length === 3) {
+  achievementCards[0].querySelector('h4').textContent = '٥٠٠٬٠٠٠+';
+  achievementCards[1].querySelector('h4').textContent = '١٫٢M+';
+  achievementCards[2].querySelector('h4').textContent = '+١٠٠B ﷼';  
+
   achievementCards[0].querySelector('p').textContent = 'وحدات سكنية تم تسليمها';
   achievementCards[1].querySelector('p').textContent = 'أُسر مستفيدة';
   achievementCards[2].querySelector('p').textContent = 'استثمارات في الإسكان';
@@ -325,6 +334,10 @@ document.querySelector('#bahja .project-description h3:nth-of-type(2)').textCont
 
 const bahjaAchievements = document.querySelectorAll('#bahja .achievement-card');
 if (bahjaAchievements.length >= 3) {
+    bahjaAchievements[0].querySelector('h4').textContent = '١٥+';
+    bahjaAchievements[0].querySelector('h4').textContent = '٥٬٠٠٠+';
+    bahjaAchievements[1].querySelector('h4').textContent = '١٠٠K+';
+
     bahjaAchievements[0].querySelector('p').textContent = 'أحياء تم إحياؤها';
     bahjaAchievements[1].querySelector('p').textContent = 'مشروعات تجارية محلية مدعومة';
     bahjaAchievements[2].querySelector('p').textContent = 'عدد المستفيدين من السكان';
@@ -351,14 +364,14 @@ document.querySelectorAll('#smart-assistant .project-description ul li')[3].text
 document.querySelectorAll('#smart-assistant .project-description ul li')[4].textContent = 'نظام دفع متكامل للرسوم البلدية';
 
 document.querySelector('#smart-assistant .project-description h3:nth-of-type(2)').textContent = 'الفوائد';
-document.querySelectorAll('#smart-assistant .achievement-card h4')[0].textContent = '80%';
+document.querySelectorAll('#smart-assistant .achievement-card h4')[0].textContent = '٪٨٠';
 document.querySelectorAll('#smart-assistant .achievement-card p')[0].textContent = 'استجابة أسرع للخدمات';
-document.querySelectorAll('#smart-assistant .achievement-card h4')[1].textContent = '1M+';
+document.querySelectorAll('#smart-assistant .achievement-card h4')[1].textContent = '١M+';
 document.querySelectorAll('#smart-assistant .achievement-card p')[1].textContent = 'مستخدمون نشطون';
-document.querySelectorAll('#smart-assistant .achievement-card h4')[2].textContent = '95%';
+document.querySelectorAll('#smart-assistant .achievement-card h4')[2].textContent = '٩٥٪';
 document.querySelectorAll('#smart-assistant .achievement-card p')[2].textContent = 'رضا المستخدمين';
 
-document.querySelector('#smart-assistant .btn').textContent = 'تحميل التطبيق';
+document.querySelector('#smart-assistant .btn').textContent = 'اعرف المزيد';
 
 // CamCom AI Visual Pollution Project
 document.querySelector('#camcom .breadcrumb span').textContent = 'مشروع كامكوم للذكاء الاصطناعي لمعالجة التلوث البصري';
@@ -376,6 +389,10 @@ document.querySelectorAll('#camcom .project-description ul li')[3].textContent =
 document.querySelectorAll('#camcom .project-description ul li')[4].textContent = 'تكامل مع أنظمة تطبيق البلدية';
 
 document.querySelector('#camcom .project-description h3:nth-of-type(2)').textContent = 'النتائج';
+document.querySelectorAll('#camcom .achievement-card h4')[0].textContent = '٧٠٪';
+document.querySelectorAll('#camcom .achievement-card h4')[1].textContent = '٤٠٪';
+document.querySelectorAll('#camcom .achievement-card h4')[2].textContent = '١٢';
+
 document.querySelectorAll('#camcom .achievement-card p')[0].textContent = 'كشف أسرع';
 document.querySelectorAll('#camcom .achievement-card p')[1].textContent = 'انخفاض التلوث البصري';
 document.querySelectorAll('#camcom .achievement-card p')[2].textContent = 'مدن مطبقة';
@@ -407,7 +424,7 @@ document.querySelector('#camcom .btn').textContent = 'عرض دراسات الح
   contactList[1].childNodes[1].textContent = ' +966 11 123 4567';
   contactList[2].childNodes[1].textContent = ' info@momah.gov.sa';
 
-  document.querySelector('footer .copyright p').textContent = '© 2025 وزارة الشؤون البلدية والإسكان. جميع الحقوق محفوظة.';
+  document.querySelector('footer .copyright p').textContent = '© ٢٠٢٥ وزارة الشؤون البلدية والإسكان. جميع الحقوق محفوظة.';
     
 
 }
@@ -537,14 +554,19 @@ document.querySelectorAll('.un-agency ul')[1].innerHTML = `
 `;
 
 // Impact & Achievements
-document.querySelectorAll('#un-collaboration h3')[0].textContent = 'Impact and Achievements';
+document.querySelector('#un-collaboration .impact-stats').previousElementSibling.textContent = 'Impact and Achievements';
+document.querySelectorAll('.stat-card h4')[0].textContent = '15+';
+document.querySelectorAll('.stat-card h4')[1].textContent = '200+';
+document.querySelectorAll('.stat-card h4')[2].textContent = '500+';
+document.querySelectorAll('.stat-card h4')[3].textContent = '5M+';
+
 document.querySelectorAll('.stat-card p')[0].textContent = 'Joint Initiatives';
 document.querySelectorAll('.stat-card p')[1].textContent = 'Training Sessions';
 document.querySelectorAll('.stat-card p')[2].textContent = 'Officials Trained';
 document.querySelectorAll('.stat-card p')[3].textContent = 'Beneficiaries Reached';
 
 // Featured Projects
-document.querySelectorAll('#un-collaboration h3')[1].textContent = 'Featured Projects';
+document.querySelector('#un-collaboration .featured-projects').previousElementSibling.textContent = 'Featured Projects';
 document.querySelectorAll('.project-highlight h4')[0].textContent = 'Urban Innovation Lab';
 document.querySelectorAll('.project-highlight p')[0].textContent = 
     'A joint initiative with UNDP to foster innovation in municipal services through technology and community engagement.';
@@ -604,6 +626,9 @@ document.querySelectorAll('#media-center .media-card')[5].querySelector('p').tex
   // Achievements
   document.querySelector('#sakani .project-description h3:nth-of-type(2)').textContent = 'Achievements';
   const achievements = document.querySelectorAll('#sakani .achievement-card');
+  achievements[0].querySelector('h4').textContent = '500,000+';
+  achievements[1].querySelector('h4').textContent = '1.2M+';
+  achievements[2].querySelector('h4').textContent = 'SAR 100B+';
   achievements[0].querySelector('p').textContent = 'Housing Units Delivered';
   achievements[1].querySelector('p').textContent = 'Beneficiary Families';
   achievements[2].querySelector('p').textContent = 'Investments in Housing';
@@ -635,6 +660,10 @@ document.querySelector('#bahja .project-description h3:nth-of-type(2)').textCont
 
 const bahjaAchievements = document.querySelectorAll('#bahja .achievement-card');
 if (bahjaAchievements.length >= 3) {
+    bahjaAchievements[0].querySelector('h4').textContent = '15+';
+    bahjaAchievements[0].querySelector('h4').textContent = '5,000+';
+    bahjaAchievements[1].querySelector('h4').textContent = '100K+';
+
     bahjaAchievements[0].querySelector('p').textContent = 'Districts Revitalized';
     bahjaAchievements[1].querySelector('p').textContent = 'Local Businesses Supported';
     bahjaAchievements[2].querySelector('p').textContent = 'Residents Benefited';
@@ -668,7 +697,7 @@ document.querySelectorAll('#smart-assistant .achievement-card p')[1].textContent
 document.querySelectorAll('#smart-assistant .achievement-card h4')[2].textContent = '95%';
 document.querySelectorAll('#smart-assistant .achievement-card p')[2].textContent = 'User Satisfaction';
 
-document.querySelector('#smart-assistant .btn').textContent = 'Download App';
+document.querySelector('#smart-assistant .btn').textContent = 'Know More';
 
 // CamCom AI Visual Pollution Project
 document.querySelector('#camcom .breadcrumb span').textContent = 'CamCom AI Visual Pollution Project';
@@ -686,6 +715,10 @@ document.querySelectorAll('#camcom .project-description ul li')[3].textContent =
 document.querySelectorAll('#camcom .project-description ul li')[4].textContent = 'Integration with municipal enforcement systems';
 
 document.querySelector('#camcom .project-description h3:nth-of-type(2)').textContent = 'Results';
+document.querySelectorAll('#camcom .achievement-card h4')[0].textContent = '70%';
+document.querySelectorAll('#camcom .achievement-card h4')[1].textContent = '40%';
+document.querySelectorAll('#camcom .achievement-card h4')[2].textContent = '12';
+
 document.querySelectorAll('#camcom .achievement-card p')[0].textContent = 'Faster Detection';
 document.querySelectorAll('#camcom .achievement-card p')[1].textContent = 'Reduction in Visual Pollution';
 document.querySelectorAll('#camcom .achievement-card p')[2].textContent = 'Cities Implemented';
