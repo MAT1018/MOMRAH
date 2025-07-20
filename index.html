@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministry of Municipalities and Housing | Saudi Arabia</title>
+    <meta name="description" content="Official website of the Ministry of Municipalities and Housing, showcasing innovation projects and UN collaborations">
+    <meta name="keywords" content="MoMaH, Saudi Arabia, Municipalities, Housing, UNDP, UN-Habitat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body dir="ltr">
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-landmark fa-2x" style="color: var(--moma-green);"></i>
+                <h1>MoMaH</h1>
+            </div>
+            
+            <div class="nav-container">
+                <div class="language-toggle">
+                    <button class="lang-btn active" data-lang="en">EN 🇬🇧</button>
+                    <button class="lang-btn" data-lang="ar">AR 🇸🇦</button>
+                </div>
+                
+                <button class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Projects <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown">
+                            <div class="dropdown-item">
+                                <a href="#" class="dropdown-link" data-page="sakani">Sakani Housing Support Program</a>
+                            </div>
+                            <div class="dropdown-item">
+                                <a href="#" class="dropdown-link" data-page="bahja">Bahja Urban Revitalization</a>
+                            </div>
+                            <div class="dropdown-item">
+                                <a href="#" class="dropdown-link" data-page="smart-assistant">Smart Assistant and My City</a>
+                            </div>
+                            <div class="dropdown-item">
+                                <a href="#" class="dropdown-link" data-page="camcom">CamCom AI Visual Pollution Project</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="un-collaboration">UN Collaboration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="media-center">Media Center</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <div id="home" class="page-content active">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content text-align-center">
+                <h1>Celebrating Innovation & Excellence</h1>
+                <p>Ministry of Municipalities and Housing - Kingdom of Saudi Arabia</p>
+                <div>
+                    <a href="#" class="btn" data-page="projects">Explore Projects</a>
+                    <a href="#" class="btn btn-outline" data-page="about">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision Section -->
+        <section class="section vision">
+            <div class="container vision-container">
+                <div class="vision-content">
+                    <h2>Our Vision</h2>
+                    <p>To develop vibrant and sustainable communities across the Kingdom of Saudi Arabia through innovative urban planning, efficient land management, and strategic partnerships with global organizations.</p>
+                    <p>We aim to enhance the quality of life for all citizens by providing accessible housing solutions and creating modern, livable cities that reflect our rich cultural heritage while embracing future technologies.</p>
+                    <p>Our commitment extends to fostering economic growth, preserving the environment, and ensuring equitable access to municipal services for all residents.</p>
+                </div>
+                <div class="vision-image">
+                    <img src="https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Saudi urban development">
+                </div>
+            </div>
+        </section>
+
+        <!-- Domains Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Our Domains</h2>
+                <div class="domains-grid">
+                    <!-- Domain 1 -->
+                    <div class="domain-card">
+                        <div class="card-icon">
+                            <i class="fas fa-city"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Municipal Planning</h3>
+                            <p>Strategic urban development plans to create sustainable and efficient cities across the Kingdom.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Domain 2 -->
+                    <div class="domain-card">
+                        <div class="card-icon">
+                            <i class="fas fa-vector-square"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Land Management</h3>
+                            <p>Efficient utilization and regulation of land resources to support national development goals.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Domain 3 -->
+                    <div class="domain-card">
+                        <极端的
+                        <div class="card-icon">
+                            <i class="fas fa-hard-hat"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Large Projects</h3>
+                            <p>Implementation of major infrastructure and development projects transforming Saudi cities.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Domain 4 -->
+                    <div class="domain-card">
+                        <div class="card-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Neighbourhood Development</h3>
+                            <p>Creating vibrant, livable communities with modern amenities and services.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Domain 5 -->
+                    <div class="domain-card">
+                        <div class="card-icon">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Permitting and Enforcement</h3>
+                            <p>Streamlined regulatory processes ensuring compliance with urban standards.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Domain 6 -->
+                    <div class="domain-card">
+                        <div class="card-icon">
+                            <i class="fas fa-road"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Mobility and Infrastructure</h3>
+                            <p>Developing modern transportation networks and essential city infrastructure.</极端的
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sakani Housing Support Program">
+                        </div>
+                        <div class="project-content">
+                            <h3>Sakani Housing Support Program</h3>
+                            <p>Initiative to provide affordable housing solutions for Saudi citizens through financial support and developer partnerships.</p>
+                            <a href="#" class="btn" data-page="sakani" style="margin-top: 15px;">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bahja Urban Revitalization">
+                        </div>
+                        <div class="project-content">
+                            <h3>Bahja Urban Revitalization</h3>
+                            <p>Transforming historic districts into vibrant cultural and commercial hubs while preserving heritage.</p>
+                            <a href="#" class="btn" data-page="bahja" style="margin-top: 15px;">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Smart Assistant and My City">
+                        </div>
+                        <div class="project-content">
+                            <h3>Smart Assistant and My City</h3>
+                            <p>Digital platforms enabling residents to access municipal services and report issues efficiently.</p>
+                            <a href="#" class="btn" data-page="smart-assistant" style="margin-top: 15px;">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?ixlib=rb-4.极端的3&auto=format&fit=crop&w=800&q=80" alt="CamCom AI Visual Pollution Project">
+                        </div>
+                        <div class="project-content">
+                            <h3>CamCom AI Visual Pollution Project</h3>
+                            <p>AI-powered system to detect and manage visual pollution in urban environments.</p>
+                            <a href="#" class="btn" data-page="camcom" style="margin-top: 15px;">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- About Us Page -->
+    <div id="about" class="page-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">About Us</h2>
+                <div class="about-content">
+                    <p>The Ministry of Municipalities and Housing (MoMaH) is a key government entity in the Kingdom of Saudi Arabia, responsible for urban development, housing, and municipal services across the nation. Our mission is to create sustainable and vibrant communities that enhance the quality of life for all citizens and residents.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>To lead the development of municipal and housing sectors through innovative policies, strategic partnerships, and effective governance, in line with Saudi Vision 2030.</p>
+                    
+                    <h3>Our Values</h3>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <i class="fas fa-handshake"></i>
+                            <h4>Integrity</h4>
+                            <p>We adhere to the highest ethical standards in all our operations.</p>
+                        </div>
+                        <div class="value-card">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Innovation</h4>
+                            <p>We embrace creativity and technology to solve urban challenges.</p>
+                        </div>
+                        <div class="value-card">
+                            <i class="fas fa-users"></i>
+                            <h4>Collaboration</h4>
+                            <p>We work with partners to achieve shared goals for urban development.</p>
+                        </div>
+                        <div class="value-card">
+                            <i class="fas fa-heart"></i>
+                            <h4>Sustainability</h4>
+                            <p>We plan for the future by balancing economic, social, and environmental needs.</p>
+                        </div>
+                    </div>
+                    
+                    <h3>Leadership</h3>
+                    <div class="leadership-grid">
+                        <div class="leader-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/%D9%88%D8%B2%D9%8A%D8%B1_%D8%A7%D9%84%D8%A3%D8%B3%D9%83%D8%A7%D9%86_%D8%A7%D9%84%D8%A3%D8%B3%D8%AA%D8%A7%D8%B0_%D9%85%D8%A7%D8%AC%D8%AF_%D8%A7%D9%84%D8%AD%D9%82%D9%8A%D9%84.jpg" alt="Minister">
+                            <h4>His Excellency the Minister</h4>
+                            <p>Minister of Municipalities and Housing</p>
+                        </div>
+                        <div class="leader-card">
+                            <img src="https://www.arabnews.com/sites/default/files/styles/n_670_395/public/main-image/2021/02/13/2472411-2036559287.png?itok=Qj-lvOAm" alt="Deputy Minister">
+                            <h4>Deputy Minister</h4>
+                            <p>Deputy Minister for Municipal Affairs</p>
+                        </div>
+                        <div class="leader-card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOyQCvJXYaGQEntNNliYGYEV-ziCBzWrOifA&s" alt="Deputy Minister">
+                            <h4>Deputy Minister</h4>
+                            <p>Deputy Minister for Housing</p>
+                        </div>
+                    </div>
+                    
+                    <h3>Our Journey</h3>
+                    <p>Established in 1975, the Ministry has been at the forefront of urban transformation in the Kingdom. We have launched numerous initiatives that have reshaped the urban landscape and provided housing solutions for millions of Saudis.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section gallery-section">
+            <div class="container">
+                <h2 class="section-title">Our Work in Action</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://storage.googleapis.com/realtyplusmag-news-photo/news-photo/117536.Saudi-Arabia-needs-115,000-new-homes-each-year.jpeg" alt="Urban Development">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://static.zawya.com/view/acePublic/alias/contentid/a0723bde-a1a6-4ff5-a58b-c711e9434287/0/gus9jzoxwaa_lqz-jpg.webp?f=3%3A2&q=0.75&w=3840" alt="Community Projects">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://cdn.thehagueacademy.com/2023/09/202207290751-mobile.cropped_1659060959.jpg" alt="Sustainable Cities">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- UN Collaboration Page -->
+    <div id="un-collaboration" class="page-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">UN Collaboration</h2>
+                <div class="un-content">
+                    <p>The Ministry of Municipalities and Housing collaborates with United Nations agencies to drive sustainable urban development and housing initiatives in Saudi Arabia. Our partnerships with UNDP and UN-Habitat focus on knowledge exchange, capacity building, and implementing global best practices.</p>
+                    
+                    <div class="un-agencies">
+                        <div class="un-agency">
+                            <div class="un-logo">
+                                <img src="https://www.adaptation-fund.org/wp-content/uploads/2017/07/Youth-as-agents-of-Community-Development-United-Nations-Development-Programme.jpg" alt="UNDP Logo">
+                            </div>
+                            <div class="un-details">
+                                <h3>United Nations Development Programme (UNDP)</h3>
+                                <p>Our partnership with UNDP focuses on sustainable urban development, climate resilience, and innovation in municipal services. Key initiatives include:</p>
+                                <ul>
+                                    <li>Smart City Solutions for Urban Challenges</li>
+                                    <li>Capacity Building for Municipal Staff</li>
+                                    <li>Sustainable Housing Policies and Practices</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="un-agency">
+                            <div class="un-logo">
+                                <img src="data:image/png;base64,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" alt="UN-Habitat Logo">
+                            </div>
+                            <div class="un-details">
+                                <h3>United Nations Human Settlements Programme (UN-Habitat)</h3>
+                                <p>Collaboration with UN-Habitat emphasizes urban planning, affordable housing, and inclusive city development. Our joint projects include:</p>
+                                <ul>
+                                    <li>National Urban Development Strategies</li>
+                                    <li>Community Engagement in Urban Planning</li>
+                                    <li>Innovative Solutions for Affordable Housing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3>Impact and Achievements</h3>
+                    <div class="impact-stats">
+                        <div class="stat-card">
+                            <h4>15+</h4>
+                            <p>Joint Initiatives</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4>200+</h4>
+                            <p>Training Sessions</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4>500+</h4>
+                            <p>Officials Trained</p>
+                        </div>
+                        <div class="stat-card">
+                            <h4>10M+</h4>
+                            <p>Beneficiaries Reached</p>
+                        </div>
+                    </div>
+                    
+                    <h3>Featured Projects</h3>
+                    <div class="featured-projects">
+                        <div class="project-highlight">
+                            <h4>Urban Innovation Lab</h4>
+                            <p>A joint initiative with UNDP to foster innovation in municipal services through technology and community engagement.</p>
+                        </div>
+                        <div class="project-highlight">
+                            <h4>National Housing Policy Framework</h4>
+                            <p>Developed with UN-Habitat to create a comprehensive housing policy that addresses affordability and sustainability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Media Center Page -->
+    <div id="media-center" class="page-content">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Media Center</h2>
+                
+                <div class="media-grid">
+                    <!-- News Item 1 -->
+                    <div class="media-card">
+                        <div class="media-image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvJLto6jhR81wiyaPzlOxrg7PuMqD9ZK5yHQ&s" alt="Smart City">
+                        </div>
+                        <div class="media-content">
+                            <span class="media-type">News</span>
+                            <h3>MoMaH Launches New Smart City Initiative</h3>
+                            <p>The Ministry has announced a new initiative to integrate smart technologies in urban centers across the Kingdom.</p>
+                            <a href="https://momah.gov.sa/en/node/14848" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Press Release Item 1 -->
+                    <div class="media-card">
+                        <div class="media-image">
+                            <img src="https://www.undp.org/sites/g/files/zskgke326/files/styles/scaled_image_large/public/2024-12/undp_26_1.jpg?itok=9kQyDeAg" alt="UNDP Partnership">
+                        </div>
+                        <div class="media-content">
+                            <span class="media-type">Press Release</span>
+                            <h3>Partnership with UNDP Strengthens</h3>
+                            <p>MoMaH and UNDP expand collaboration to include climate resilience in urban planning.</p>
+                            <a href="https://www.undp.org/saudi-arabia/news/empowering-sustainable-urbanization-momrah-and-undp-join-hands-saudi-arabia" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Video Item 1 -->
+                    <div class="media-card">
+                        <div class="media-video">
+                            <iframe src="https://www.youtube.com/embed/tboU8Z_zgHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="media-content">
+                            <span class="media-type">Video</span>
+                            <h3>Vision 2030: Transforming Urban Landscapes</h3>
+                            <p>Watch how MoMaH is implementing Vision 2030 through innovative urban development projects.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- News Item 2 -->
+                    <div class="media-card">
+                        <div class="media-image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp3y2xsvdiB8tNjKGP3shduldrYhAKy1NHGQ&s" alt="Housing Project">
+                        </div>
+                        <div class="media-content">
+                            <span class="media-type">News</span>
+                            <h3>New Housing Developments in Riyadh</h3>
+                            <p>MoMaH announces 5,000 new affordable housing units to be developed in the capital region.</p>
+                            <a href="https://newmurabba.com/en/" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Press Release Item 2 -->
+                    <div class="media-card">
+                        <div class="media-image">
+                            <img src="https://unhabitat.org/sites/default/files/styles/event_logo_large/public/2025/02/Practical-Guide-for-Challenge-Driven-Innovation-in-Cities-COVER-1.jpg?itok=3XrhRepB" alt="UN-Habitat">
+                        </div>
+                        <div class="media-content">
+                            <span class="media-type">Press Release</span>
+                            <h3>MoMaH and UN-Habitat Launch Urban Innovation Challenge</h3>
+                            <p>Joint initiative seeks innovative solutions for sustainable urban development in Saudi cities.</p>
+                            <a href="https://unhabitat.org/programme/people-centred-smart-cities/challenge-driven-innovation" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Video Item 2 -->
+                    <div class="media-card">
+                        <div class="media-video">
+                            <iframe src="https://www.youtube.com/embed/SAMEhdCvF7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autopl极端的ay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="media-content">
+                            <span class="media-type">Video</span>
+                            <h3>Bahja Project: Revitalizing Historic Neighborhoods</h3>
+                            <p>See how the Bahja project is transforming historic districts into vibrant community spaces.</p>
+                        </极端的div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Project Pages -->
+    <!-- Sakani Housing Support Program -->
+    <div id="sakani" class="page-content">
+        <section class="section project-section">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="#" data-page="home">Home</a> / <a href="#" data-page="projects">Projects</a> / <span>Sakani Housing Support Program</span>
+                </div>
+                
+                <div class="project-header">
+                    <h1>Sakani Housing Support Program</h1>
+                    <p>Providing affordable housing solutions for Saudi families</p>
+                </div>
+                
+                <div class="project-details">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Sakani Housing">
+                    </div>
+                    
+                    <div class="project-description">
+                        <h2>About the Program</h2>
+                        <p>The Sakani Housing Support Program is a flagship initiative of the Ministry of Municipalities and Housing, designed to facilitate homeownership for Saudi citizens. The program offers financial assistance, subsidized mortgages, and a range of housing options to meet diverse family needs.</p>
+                        
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Financial support for down payments and construction</li>
+                            <li>Partnerships with real estate developers for affordable housing units</li>
+                            <li>Online platform for housing services and applications</li>
+                            <li>Customized solutions for different income levels</li>
+                        </ul>
+                        
+                        <h3>Achievements</h3>
+                        <div class="achievements">
+                            <div class="achievement-card">
+                                <h4>500,000+</h4>
+                                <p>Housing Units Delivered</p>
+                            </div>
+                            <div class="achievement-card">
+                                <h4>1.2M+</h4>
+                                <p>Beneficiary Families</p>
+                            </div>
+                            <div class="achievement-card">
+                                <h4>SAR 200B+</h4>
+                                <p>Investments in Housing</p>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="btn">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Bahja Urban Revitalization -->
+    <div id="bahja" class="page-content">
+        <section class="section project-section">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="#" data-page="home">Home</a> / <a href="#" data-page="projects">Projects</a> / <span>Bahja Urban Revitalization</span>
+                </div>
+                
+                <div class="project-header">
+                    <h1>Bahja Urban Revitalization</h1>
+                    <p>Transforming historic districts into vibrant cultural hubs</p>
+                </div>
+                
+                <div class="project-details">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Bahja Project">
+                    </div>
+                    
+                    <div class="project-description">
+                        <h2>Project Overview</h2>
+                        <p>Bahja is an urban revitalization initiative that transforms historic neighborhoods into vibrant cultural and commercial centers while preserving their heritage. The project focuses on enhancing public spaces, improving infrastructure, and creating opportunities for local businesses.</p>
+                        
+                        <h3>Key Components</h3>
+                        <ul>
+                            <li>Restoration of historic buildings and landmarks</li>
+                            <li>Development of pedestrian-friendly public spaces</li>
+                            <li>Support for local artisans and small businesses</li>
+                            <li>Integration of modern amenities with traditional architecture</li>
+                        </ul>
+                        
+                        <h3>Impact</h3>
+                        <div class="achievements">
+                            <div class="achievement-card">
+                                <h4>15+</h4>
+                                <p>Districts Revitalized</p>
+                            </div>
+                            <div class="achievement-card">
+                                <h4>5,000+</h4>
+                                <p>Local Businesses Supported</p>
+                            </div>
+                            <div class="achievement-card">
+                                <h4极端的>100K+</h4>
+                                <p>Residents Benefited</p>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="btn">View Project Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Smart Assistant and My City -->
+    <div id="smart-assistant" class="page-content">
+        <section class="section project-section">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="#" data-page="home">Home</a> / <a href="#" data-page="projects">Projects</a> / <span>Smart Assistant and My City</span>
+                </div>
+                
+                <div class="project-header">
+                    <h1>Smart Assistant and My City</h1>
+                    <p>Digital platforms for enhanced municipal services</p>
+                </div>
+                
+                <div class="project-details">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Smart Assistant">
+                    </div>
+                    
+                    <div class="project-description">
+                        <h2>Digital Transformation Initiative</h2>
+                        <p>The Smart Assistant and My City platforms represent MoMaH's commitment to digital transformation. These platforms enable residents to access municipal services, report issues, and engage with their communities through user-friendly digital interfaces.</p>
+                        
+                        <h3>Platform Features</h3>
+                        <ul>
+                            <li>24/7 virtual assistant for municipal inquiries</li>
+                            <li>Mobile app for service requests and tracking</li>
+                            <li>Real-time city information and updates</li>
+                            <li>Community engagement tools</li>
+                            <li>Integrated payment system for municipal fees</li>
+                        </ul>
+                        
+                        <h3>Benefits</h3>
+                        <div class="achievements">
+                            <div class="achievement-card">
+                                <h4>80%</h4>
+                                <p>Faster Service Response</p>
+                            </div>
+                            <div class="achievement-card">
+                                <h4>1M+</h4>
+                                <p>Active Users</p>
+                            </div>
+                            <div class="achievement-card">
+                                <h4>95%</h4>
+                                <p>User Satisfaction</p>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="btn">Download App</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- CamCom AI Visual Pollution Project -->
+    <div id="camcom" class="page-content">
+        <section class="section project-section">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="#" data-page="home">Home</a> / <a href="#" data-page="projects">Projects</a> / <span>CamCom AI Visual Pollution Project</span>
+                </div>
+                
+                <div class="project-header">
+                    <h1>CamCom AI Visual Pollution Project</h1>
+                    <p>Using artificial intelligence to enhance urban aesthetics</p>
+                </div>
+                
+                <div class="project-details">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="CamCom Project">
+                    </div>
+                    
+                    <div class="project-description">
+                        <h2>Innovative Urban Management</h2>
+                        <p>CamCom is an AI-powered system that detects and manages visual pollution in urban environments. Using computer vision and machine learning, the system identifies issues such as unauthorized advertisements, graffiti, and poorly maintained facades, enabling efficient urban management.</p>
+                        
+                        <h3>Technology Components</h3>
+                        <ul>
+                            <li>AI-powered image recognition system</li>
+                            <li>Mobile app for citizen reporting</li>
+                            <li>Automated workflow for issue resolution</li>
+                            <li>Data analytics for urban planning</li>
+                            <li>Integration with municipal enforcement systems</li>
+                        </ul>
+                        
+                        <h3>Results</h3>
+                        <div class="achievements">
+                            <div class="achievement-card">
+                                <h4>70%</h4>
+                                <p>Faster Detection</p>
+                            </div>
+                            <div class="achievement-card">
+                                <h4>40%</h4>
+                                <p>Reduction in Visual Pollution</p>
+                            </div>
+                            <div class="achievement-card">
+                                <h4>12</h4>
+                                <p>Cities Implemented</p>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="btn">View Case Studies</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Ministry of Municipalities and Housing</h3>
+                    <p>Building sustainable communities for the Kingdom's future through innovation and excellence in urban planning and housing solutions.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fas fa-globe"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" data-page="home">Home</a></li>
+                        <li><a href="#" data-page="projects">Projects</a></li>
+                        <li><a href="#" data-page="about">About Us</a></li>
+                        <li><a href="#" data-page="un-collaboration">UN Collaboration</a></li>
+                        <li><a href="#" data-page="media-center">Media Center</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Our Projects</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" data-page="sakani">Sakani Housing Support Program</a></li>
+                        <li><a href="#" data-page="bahja">Bahja Urban Revitalization</a></li>
+                        <li><a href="#" data-page="smart-assistant">Smart Assistant and My City</a></li>
+                        <li><a href="#" data-page="camcom">CamCom AI Visual Pollution Project</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Riyadh, Saudi Arabia</li>
+                        <li><i class="fas fa-phone"></i> +966 11 123 4567</li>
+                        <li><i class="fas fa-envelope"></i> info@momah.gov.sa</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Ministry of Municipalities and Housing. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
