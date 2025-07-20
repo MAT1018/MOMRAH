@@ -247,7 +247,12 @@ document.querySelectorAll('.project-highlight h4')[1].textContent = 'إطار س
 document.querySelectorAll('.project-highlight p')[1].textContent = 
     'تم تطويره بالتعاون مع موئل الأمم المتحدة لوضع سياسة إسكان شاملة تعالج مسائل التيسير والاستدامة.';
     
-    // مركز الإعلام
+    // Media Center
+document.querySelectorAll('#media-center .media-card')[0].querySelector('a.btn').textContent = 'اقرأ المزيد';
+document.querySelectorAll('#media-center .media-card')[1].querySelector('a.btn').textContent = 'اقرأ المزيد';
+document.querySelectorAll('#media-center .media-card')[3].querySelector('a.btn').textContent = 'اقرأ المزيد';
+document.querySelectorAll('#media-center .media-card')[4].querySelector('a.btn').textContent = 'اقرأ المزيد';
+
 document.querySelector('#media-center .section-title').textContent = 'مركز الإعلام';
 
 document.querySelectorAll('#media-center .media-card')[0].querySelector('span').textContent = 'خبر';
@@ -299,9 +304,9 @@ document.querySelector('#sakani .project-description h3:nth-of-type(2)').textCon
 
 const achievementCards = document.querySelectorAll('#sakani .achievement-card');
 if (achievementCards.length === 3) {
-  achievementCards[0].querySelector('h4').textContent = '٥٠٠٬٠٠٠+';
-  achievementCards[1].querySelector('h4').textContent = '١٫٢M+';
-  achievementCards[2].querySelector('h4').textContent = '+١٠٠B ﷼';  
+  achievementCards[0].querySelector('h4').textContent = '+٥٠٠٬٠٠٠';
+  achievementCards[1].querySelector('h4').textContent = 'أكثر من ١.٢ مليون';
+  achievementCards[2].querySelector('h4').textContent = 'أكثر من ١٠٠ مليار ريال سعودي';  
 
   achievementCards[0].querySelector('p').textContent = 'وحدات سكنية تم تسليمها';
   achievementCards[1].querySelector('p').textContent = 'أُسر مستفيدة';
@@ -334,9 +339,9 @@ document.querySelector('#bahja .project-description h3:nth-of-type(2)').textCont
 
 const bahjaAchievements = document.querySelectorAll('#bahja .achievement-card');
 if (bahjaAchievements.length >= 3) {
-    bahjaAchievements[0].querySelector('h4').textContent = '١٥+';
-    bahjaAchievements[0].querySelector('h4').textContent = '٥٬٠٠٠+';
-    bahjaAchievements[1].querySelector('h4').textContent = '١٠٠K+';
+    bahjaAchievements[0].querySelector('h4').textContent = '+١٥';
+    bahjaAchievements[1].querySelector('h4').textContent = '+٥٬٠٠٠';
+    bahjaAchievements[2].querySelector('h4').textContent = 'أكثر من ١٠٠ ألف';
 
     bahjaAchievements[0].querySelector('p').textContent = 'أحياء تم إحياؤها';
     bahjaAchievements[1].querySelector('p').textContent = 'مشروعات تجارية محلية مدعومة';
@@ -366,9 +371,9 @@ document.querySelectorAll('#smart-assistant .project-description ul li')[4].text
 document.querySelector('#smart-assistant .project-description h3:nth-of-type(2)').textContent = 'الفوائد';
 document.querySelectorAll('#smart-assistant .achievement-card h4')[0].textContent = '٪٨٠';
 document.querySelectorAll('#smart-assistant .achievement-card p')[0].textContent = 'استجابة أسرع للخدمات';
-document.querySelectorAll('#smart-assistant .achievement-card h4')[1].textContent = '١M+';
+document.querySelectorAll('#smart-assistant .achievement-card h4')[1].textContent = 'أكثر من مليون';
 document.querySelectorAll('#smart-assistant .achievement-card p')[1].textContent = 'مستخدمون نشطون';
-document.querySelectorAll('#smart-assistant .achievement-card h4')[2].textContent = '٩٥٪';
+document.querySelectorAll('#smart-assistant .achievement-card h4')[2].textContent = '%٩٥';
 document.querySelectorAll('#smart-assistant .achievement-card p')[2].textContent = 'رضا المستخدمين';
 
 document.querySelector('#smart-assistant .btn').textContent = 'اعرف المزيد';
@@ -389,8 +394,8 @@ document.querySelectorAll('#camcom .project-description ul li')[3].textContent =
 document.querySelectorAll('#camcom .project-description ul li')[4].textContent = 'تكامل مع أنظمة تطبيق البلدية';
 
 document.querySelector('#camcom .project-description h3:nth-of-type(2)').textContent = 'النتائج';
-document.querySelectorAll('#camcom .achievement-card h4')[0].textContent = '٧٠٪';
-document.querySelectorAll('#camcom .achievement-card h4')[1].textContent = '٤٠٪';
+document.querySelectorAll('#camcom .achievement-card h4')[0].textContent = '%٧٠';
+document.querySelectorAll('#camcom .achievement-card h4')[1].textContent = 'أكثر من أربعين';
 document.querySelectorAll('#camcom .achievement-card h4')[2].textContent = '١٢';
 
 document.querySelectorAll('#camcom .achievement-card p')[0].textContent = 'كشف أسرع';
@@ -575,6 +580,11 @@ document.querySelectorAll('.project-highlight p')[1].textContent =
     'Developed with UN-Habitat to create a comprehensive housing policy that addresses affordability and sustainability.';
     
     // Media Center
+document.querySelectorAll('#media-center .media-card')[0].querySelector('a.btn').textContent = 'Read More';
+document.querySelectorAll('#media-center .media-card')[1].querySelector('a.btn').textContent = 'Read More';
+document.querySelectorAll('#media-center .media-card')[3].querySelector('a.btn').textContent = 'Read More';
+document.querySelectorAll('#media-center .media-card')[4].querySelector('a.btn').textContent = 'Read More';
+
 document.querySelector('#media-center .section-title').textContent = 'Media Center';
 
 document.querySelectorAll('#media-center .media-card')[0].querySelector('span').textContent = 'News';
@@ -661,8 +671,8 @@ document.querySelector('#bahja .project-description h3:nth-of-type(2)').textCont
 const bahjaAchievements = document.querySelectorAll('#bahja .achievement-card');
 if (bahjaAchievements.length >= 3) {
     bahjaAchievements[0].querySelector('h4').textContent = '15+';
-    bahjaAchievements[0].querySelector('h4').textContent = '5,000+';
-    bahjaAchievements[1].querySelector('h4').textContent = '100K+';
+    bahjaAchievements[1].querySelector('h4').textContent = '5,000+';
+    bahjaAchievements[2].querySelector('h4').textContent = '100K+';
 
     bahjaAchievements[0].querySelector('p').textContent = 'Districts Revitalized';
     bahjaAchievements[1].querySelector('p').textContent = 'Local Businesses Supported';
