@@ -1,4 +1,3 @@
-// script.js (updated and completed)
 // Language Toggle Functionality
 const langButtons = document.querySelectorAll('.lang-btn');
 const htmlElement = document.documentElement;
@@ -404,33 +403,31 @@ document.querySelectorAll('#camcom .achievement-card p')[2].textContent = 'مد�
 
 document.querySelector('#camcom .btn').textContent = 'عرض دراسات الحالة';
 
-// Footer
-    document.querySelector('footer .footer-col:nth-of-type(1) h3').textContent = 'وزارة الشؤون البلدية والإسكان';
-  document.querySelector('footer .footer-col:nth-of-type(1) p').textContent = "نبني مجتمعات مستدامة من أجل مستقبل المملكة من خلال الابتكار والتميز في التخطيط الحضري وحلول الإسكان.";
+// Footer - Arabic
+document.querySelector('footer .footer-col:nth-of-type(1) h3').textContent = 'وزارة الشؤون البلدية والإسكان';
+document.querySelector('footer .footer-col:nth-of-type(1) p').textContent = "نبني مجتمعات مستدامة من أجل مستقبل المملكة من خلال الابتكار والتميز في التخطيط الحضري وحلول الإسكان.";
 
-  document.querySelector('footer .footer-col:nth-of-type(2) h3').textContent = 'روابط سريعة';
-  const quickLinks = document.querySelectorAll('footer .footer-col:nth-of-type(2) li');
-  quickLinks[0].textContent = 'الرئيسية';
-  quickLinks[1].textContent = 'المشاريع';
-  quickLinks[2].textContent = 'من نحن';
-  quickLinks[3].textContent = 'التعاون مع الأمم المتحدة';
-  quickLinks[4].textContent = 'المركز الإعلامي';
+document.querySelector('footer .footer-col:nth-of-type(2) h3').textContent = 'روابط سريعة';
+const quickLinks = document.querySelectorAll('footer .footer-col:nth-of-type(2) li');
+quickLinks[0].querySelector('a').textContent = 'الرئيسية';
+quickLinks[1].querySelector('a').textContent = 'من نحن';
+quickLinks[2].querySelector('a').textContent = 'التعاون مع الأمم المتحدة';
+quickLinks[3].querySelector('a').textContent = 'المركز الإعلامي';
 
-  document.querySelector('footer .footer-col:nth-of-type(3) h3').textContent = 'مشاريعنا';
-  const projectsLinks = document.querySelectorAll('footer .footer-col:nth-of-type(3) li');
-  projectsLinks[0].textContent = 'برنامج سكني لدعم الإسكان';
-  projectsLinks[1].textContent = 'بهجة لتجديد المناطق الحضرية';
-  projectsLinks[2].textContent = 'المساعد الذكي ومدينتي';
-  projectsLinks[3].textContent = 'مشروع كامكوم للذكاء الاصطناعي والتلوث البصري';
+document.querySelector('footer .footer-col:nth-of-type(3) h3').textContent = 'مشاريعنا';
+const projectsLinks = document.querySelectorAll('footer .footer-col:nth-of-type(3) li');
+projectsLinks[0].querySelector('a').textContent = 'برنامج سكني لدعم الإسكان';
+projectsLinks[1].querySelector('a').textContent = 'بهجة لتجديد المناطق الحضرية';
+projectsLinks[2].querySelector('a').textContent = 'المساعد الذكي ومدينتي';
+projectsLinks[3].querySelector('a').textContent = 'مشروع كامكوم للذكاء الاصطناعي والتلوث البصري';
 
-  document.querySelector('footer .footer-col:nth-of-type(4) h3').textContent = 'تواصل معنا';
-  const contactList = document.querySelectorAll('footer .footer-col:nth-of-type(4) li');
-  contactList[0].childNodes[1].textContent = ' الرياض، المملكة العربية السعودية';
-  contactList[1].childNodes[1].textContent = ' +966 11 123 4567';
-  contactList[2].childNodes[1].textContent = ' info@momah.gov.sa';
+document.querySelector('footer .footer-col:nth-of-type(4) h3').textContent = 'تواصل معنا';
+const contactList = document.querySelectorAll('footer .footer-col:nth-of-type(4) li');
+contactList[0].childNodes[1].textContent = ' الرياض، المملكة العربية السعودية';
+contactList[1].childNodes[1].textContent = ' +966 11 123 4567';
+contactList[2].childNodes[1].textContent = ' info@momah.gov.sa';
 
-  document.querySelector('footer .copyright p').textContent = '© ٢٠٢٥ وزارة الشؤون البلدية والإسكان. جميع الحقوق محفوظة.';
-    
+document.querySelector('footer .copyright p').textContent = '© ٢٠٢٥ وزارة الشؤون البلدية والإسكان. جميع الحقوق محفوظة.';    
 
 }
 
@@ -735,32 +732,31 @@ document.querySelectorAll('#camcom .achievement-card p')[2].textContent = 'Citie
 
 document.querySelector('#camcom .btn').textContent = 'View Case Studies';
 
-  //Footer
-  document.querySelector('footer .footer-col:nth-of-type(1) h3').textContent = 'Ministry of Municipalities and Housing';
-  document.querySelector('footer .footer-col:nth-of-type(1) p').textContent = "Building sustainable communities for the Kingdom's future through innovation and excellence in urban planning and housing solutions.";
+  // Footer - English
+document.querySelector('footer .footer-col:nth-of-type(1) h3').textContent = 'Ministry of Municipalities and Housing';
+document.querySelector('footer .footer-col:nth-of-type(1) p').textContent = "Building sustainable communities for the Kingdom's future through innovation and excellence in urban planning and housing solutions.";
 
-  document.querySelector('footer .footer-col:nth-of-type(2) h3').textContent = 'Quick Links';
-  const quickLinks = document.querySelectorAll('footer .footer-col:nth-of-type(2) li');
-  quickLinks[0].textContent = 'Home';
-  quickLinks[1].textContent = 'Projects';
-  quickLinks[2].textContent = 'About Us';
-  quickLinks[3].textContent = 'UN Collaboration';
-  quickLinks[4].textContent = 'Media Center';
+document.querySelector('footer .footer-col:nth-of-type(2) h3').textContent = 'Quick Links';
+const quickLinks = document.querySelectorAll('footer .footer-col:nth-of-type(2) li');
+quickLinks[0].querySelector('a').textContent = 'Home';
+quickLinks[1].querySelector('a').textContent = 'About Us';
+quickLinks[2].querySelector('a').textContent = 'UN Collaboration';
+quickLinks[3].querySelector('a').textContent = 'Media Center';
 
-  document.querySelector('footer .footer-col:nth-of-type(3) h3').textContent = 'Our Projects';
-  const projectsLinks = document.querySelectorAll('footer .footer-col:nth-of-type(3) li');
-  projectsLinks[0].textContent = 'Sakani Housing Support Program';
-  projectsLinks[1].textContent = 'Bahja Urban Revitalization';
-  projectsLinks[2].textContent = 'Smart Assistant and My City';
-  projectsLinks[3].textContent = 'CamCom AI Visual Pollution Project';
+document.querySelector('footer .footer-col:nth-of-type(3) h3').textContent = 'Our Projects';
+const projectsLinks = document.querySelectorAll('footer .footer-col:nth-of-type(3) li');
+projectsLinks[0].querySelector('a').textContent = 'Sakani Housing Support Program';
+projectsLinks[1].querySelector('a').textContent = 'Bahja Urban Revitalization';
+projectsLinks[2].querySelector('a').textContent = 'Smart Assistant and My City';
+projectsLinks[3].querySelector('a').textContent = 'CamCom AI Visual Pollution Project';
 
-  document.querySelector('footer .footer-col:nth-of-type(4) h3').textContent = 'Contact Us';
-  const contactList = document.querySelectorAll('footer .footer-col:nth-of-type(4) li');
-  contactList[0].childNodes[1].textContent = ' Riyadh, Saudi Arabia';
-  contactList[1].childNodes[1].textContent = ' +966 11 123 4567';
-  contactList[2].childNodes[1].textContent = ' info@momah.gov.sa';
+document.querySelector('footer .footer-col:nth-of-type(4) h3').textContent = 'Contact Us';
+const contactList = document.querySelectorAll('footer .footer-col:nth-of-type(4) li');
+contactList[0].childNodes[1].textContent = ' Riyadh, Saudi Arabia';
+contactList[1].childNodes[1].textContent = ' +966 11 123 4567';
+contactList[2].childNodes[1].textContent = ' info@momah.gov.sa';
 
-  document.querySelector('footer .copyright p').textContent = '© 2025 Ministry of Municipalities and Housing. All Rights Reserved.';
+document.querySelector('footer .copyright p').textContent = '© 2025 Ministry of Municipalities and Housing. All Rights Reserved.';
     
 }
 
