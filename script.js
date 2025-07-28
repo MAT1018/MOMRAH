@@ -102,13 +102,15 @@ function updateContentForArabic() {
     // Header
     document.querySelector('.logo h1').textContent = 'وزارة الشؤون البلدية والإسكان';
     
-    // Navigation
+    // Navigation - Arabic
     const navLinks = document.querySelectorAll('.nav-link');
-    navLinks[0].textContent = 'الرئيسية';
-    navLinks[1].innerHTML = 'المشاريع <i class="fas fa-chevron-down"></i>';
-    navLinks[2].textContent = 'من نحن';
-    navLinks[3].textContent = 'التعاون مع الأمم المتحدة';
-    navLinks[4].textContent = 'المركز الإعلامي';
+    navLinks[0].textContent = 'الرئيسية';                         // Home
+    navLinks[1].textContent = 'الفئات';                           // Categories
+    navLinks[2].innerHTML = 'المشاريع <i class="fas fa-chevron-down"></i>'; // Projects (with icon)
+    navLinks[3].textContent = 'الفائزون';                         // Winners
+    navLinks[4].textContent = 'من نحن';                           // About Us
+    navLinks[5].textContent = 'التعاون مع الأمم المتحدة';          // UN Collaboration
+    navLinks[6].textContent = 'المركز الإعلامي';                  // Media Center
     
     // Dropdown items
     const dropdownItems = document.querySelectorAll('.dropdown-link');
@@ -123,11 +125,14 @@ function updateContentForArabic() {
     document.querySelector('.hero .btn').textContent = 'استكشف المشاريع';
     document.querySelector('.hero .btn-outline').textContent = 'معرفة المزيد';
     
-    // Vision Section
-    document.querySelector('.vision-content h2').textContent = 'رؤيتنا';
-    document.querySelector('.vision-content p:nth-child(2)').textContent = 'تطوير مجتمعات حيوية ومستدامة في جميع أنحاء المملكة العربية السعودية من خلال التخطيط الحضري المبتكر، والإدارة الفعالة للأراضي، والشراكات الاستراتيجية مع المنظمات العالمية.';
-    document.querySelector('.vision-content p:nth-child(3)').textContent = 'نهدف إلى تعزيز جودة الحياة لجميع المواطنين من خلال توفير حلول سكنية ميسورة وخلق مدن حديثة صالحة للعيش تعكس تراثنا الثقافي الغني مع تبني تقنيات المستقبل.';
-    document.querySelector('.vision-content p:nth-child(4)').textContent = 'يمتد التزامنا إلى تعزيز النمو الاقتصادي، والحفاظ على البيئة، وضمان الوصول العادل إلى الخدمات البلدية لجميع السكان.';
+   // Vision Section - Arabic Version (Matching Corrected English Text)
+   document.querySelector('.vision-content h2').textContent = 'حول جائزة الابتكار';
+
+   document.querySelector('.vision-content p:nth-of-type(1)').textContent =
+   'جائزة الابتكار هي تكريم مرموق مخصص لتقدير الإنجازات الرائدة التي تدفع حدود الممكن. أُنشئت لتسليط الضوء على الأفراد والفرق والمنظمات التي تقود التغيير الإيجابي، حيث تحتفي الجائزة بدمج الإبداع والاستراتيجية والابتكار. من التقدم التكنولوجي والتحول الرقمي إلى الأثر الاجتماعي والتميز في التصميم، فهي تكرّم المبتكرين الذين يعيدون تشكيل الصناعات ويواجهون التحديات الواقعية.';
+
+   document.querySelector('.vision-content p:nth-of-type(2)').textContent =
+    'تجمع جائزة الابتكار سنويًا مجتمعًا متنوعًا من الرواد — من رواد الأعمال والباحثين والمصممين إلى صناع التغيير — الذين يتحدّون المألوف ويقودون برؤية واضحة. فهي لا تقتصر على الاحتفاء بالنجاح فحسب، بل تهدف إلى إبراز الأفكار الجريئة، ومشاركة القصص المؤثرة، وإلهام الجيل القادم من القادة. سواء كنت تطور منتجًا أفضل، أو تحل مشكلات معقدة، أو تخلق تغييرًا اجتماعيًا هادفًا، فإن جائزة الابتكار هي منصتك للظهور والتقدير والتأثير العالمي.';
     
     // Domains Section
     document.querySelector('.section-title').textContent = 'مجالات عملنا';
@@ -439,10 +444,12 @@ function updateContentForEnglish() {
     // Navigation
     const navLinks = document.querySelectorAll('.nav-link');
     navLinks[0].textContent = 'Home';
-    navLinks[1].innerHTML = 'Projects <i class="fas fa-chevron-down"></i>';
-    navLinks[2].textContent = 'About Us';
-    navLinks[3].textContent = 'UN Collaboration';
-    navLinks[4].textContent = 'Media Center';
+    navLinks[1].textContent = 'Categories';
+    navLinks[2].innerHTML = 'Projects <i class="fas fa-chevron-down"></i>';
+    navLinks[3].textContent = 'Winners';
+    navLinks[4].textContent = 'About Us';
+    navLinks[5].textContent = 'UN Collaboration';
+    navLinks[6].textContent = 'Media Center';
     
     // Dropdown items
     const dropdownItems = document.querySelectorAll('.dropdown-link');
@@ -457,14 +464,17 @@ function updateContentForEnglish() {
     document.querySelector('.hero .btn').textContent = 'Explore Projects';
     document.querySelector('.hero .btn-outline').textContent = 'Learn More';
     
-    // Vision Section
-    document.querySelector('.vision-content h2').textContent = 'Our Vision';
-    document.querySelector('.vision-content p:nth-child(2)').textContent = 'To develop vibrant and sustainable communities across the Kingdom of Saudi Arabia through innovative urban planning, efficient land management, and strategic partnerships with global organizations.';
-    document.querySelector('.vision-content p:nth-child(3)').textContent = 'We aim to enhance the quality of life for all citizens by providing accessible housing solutions and creating modern, livable cities that reflect our rich cultural heritage while embracing future technologies.';
-    document.querySelector('.vision-content p:nth-child(4)').textContent = 'Our commitment extends to fostering economic growth, preserving the environment, and ensuring equitable access to municipal services for all residents.';
+    // Vision Section - Update to match the original HTML text
+    document.querySelector('.vision-content h2').textContent = 'About the Innovation Award';
+
+    document.querySelector('.vision-content p:nth-of-type(1)').textContent =
+    'The Innovation Award is a prestigious recognition dedicated to honoring groundbreaking achievements that push the boundaries of what is possible. Created to spotlight individuals, teams, and organizations that drive positive change, the award celebrates the fusion of creativity, strategy, and innovation. From technological advancements and digital transformation to social impact and design excellence, it recognizes forward-thinkers who are reshaping industries and solving real-world challenges.';
+
+    document.querySelector('.vision-content p:nth-of-type(2)').textContent =
+    'Each year, the Innovation Award brings together a diverse community of visionaries—entrepreneurs, researchers, designers, and change-makers—who challenge convention and lead with purpose. It’s not just about celebrating success; it’s about amplifying bold ideas, sharing impactful stories, and inspiring the next generation of leaders. Whether you’re building a better product, solving complex problems, or creating meaningful social change, the Innovation Award is your platform for visibility, recognition, and global impact.';
     
     // Domains Section
-    document.querySelector('.section-title').textContent = 'Our Domains';
+    document.querySelector('.section-title').textContent = 'Award Categories';
     document.querySelectorAll('.card-content h3')[0].textContent = 'Municipal Planning';
     document.querySelectorAll('.card-content h3')[1].textContent = 'Land Management';
     document.querySelectorAll('.card-content h3')[2].textContent = 'Large Projects';
